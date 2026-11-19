@@ -1,0 +1,10 @@
+{
+  "description": "Manage clinic registrations and live queues with patient self-service, staff walk-in support, ticket tracking, and real-time status updates.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,50 @@
+# ==============================================================================
+# GITIGNORE - KLINIK NAYAKA HUSADA (FULLSTACK REACT + EXPRESS + SUPABASE)
+# ==============================================================================
+
+# 1. DEPENDENCIES / PACKAGES (Ukuran ratusan MB, wajib di-generate ulang via npm install)
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# 2. FILE KREDENSIAL / API KEYS (SANGAT KRUSIAL: JANGAN PERNAH DI-PUSH KE GITHUB!)
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# 3. BUILD ARTIFACTS / PRODUCTION COMPILED (Hasil build otomatis dari Vite / TypeScript)
+dist/
+dist-ssr/
+build/
+server/dist/
+*.local
+
+# 4. LOGS & DEBUG FILES (File log sistem dan error)
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 5. EDITOR & IDE CONFIGURATION (Pengaturan spesifik komputer developer)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 6. OPERATING SYSTEM ARTIFACTS (File sampah bawaan Windows / macOS)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
